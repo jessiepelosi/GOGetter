@@ -2,11 +2,11 @@
 
 Scripts for the GOGetter pipeline. If you use this pipeline, please cite the following paper: 
 
-Sessa, E.B., J.A. Pelosi, XX, XX, M.S. Barker. GOGetter... blah blah. 
+Sessa, E.B., J.A. Pelosi, R. Masalia, N. Arrigo, and M.S. Barker. GOGetter... blah blah. 
 
 ## Dependencies 
 1. perl 
-2. NCBI Blast (in path) 
+2. NCBI Blast
 
 ## Basic usage
 
