@@ -1,0 +1,3 @@
+compare_annotations_BEST_clean.parsed.blasted_Dryopteris_decipiens_DRDE.cds
+compare_annotations_BEST_clean.parsed.blasted_Lygodium_japonicum_LYJA.cds
+compare_annotations_BEST_clean.parsed.blasted_Vittaria_appalachiana_NDUV.cds
