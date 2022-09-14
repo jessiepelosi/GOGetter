@@ -14,7 +14,7 @@ GOGetter is split into two major perl wrapper scripts. The first script `0_Get_G
 ```
 perl 0_Get_GO_annotations.pl [names.txt] [number of CPUs]
 ```
-The output from these scripts will be located in the `Outputs` subdirectory and are named 
+The output from these scripts will be located in the `Outputs` subdirectory and are named:  
 ```
 compare_annotations_BEST_clean.parsed.blasted_[sample name]
 gene_annotation_BEST_clean.parsed.blasted_[sample name]
