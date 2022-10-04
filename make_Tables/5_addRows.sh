@@ -2,7 +2,7 @@
 ## bash 5_addRows.sh -f [table_file.csv]
 ## Written by Jessie Pelosi, University of Florida 
 ## Purpose: append csvs with row names 
-## Last Updated: September 12, 2022
+## Last Updated: September 2022
 ##################################################
 
 #!/bin/sh
