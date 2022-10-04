@@ -2,7 +2,7 @@
 ## bash 3_sed_GOSlim.sh -f [table_file.csv]
 ## Written by Jessie Pelosi, University of Florida 
 ## Purpose: replace commas in GO Slim categories
-## Last updated: September 19, 2021
+## Last updated: September 2022
 #######################################
 
 #!/bin/sh 
