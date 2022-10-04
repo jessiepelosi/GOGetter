@@ -1,9 +1,8 @@
 #############
-#	Emily Sessa, Aug 2012
+#	Emily Sessa
 #	Barker lab, UA EEB
-#	Usage: perl 0_maketables.pl [names.txt]
-# 	Updated by Jessie Pelosi, University of Florida 
-# 	September 2022
+#	Usage: perl 0_maketables.pl <namesfile>
+# 	Last Updated by Jessie Pelosi, September 2022
 #############
 
 $NAME = "$ARGV[0]"; #text file containing list of file names to run iteratively through the pipeline
