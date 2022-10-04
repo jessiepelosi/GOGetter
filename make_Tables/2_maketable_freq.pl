@@ -1,6 +1,6 @@
 #############
 #
-#	Emily Sessa, Aug 2012
+#	Emily Sessa
 #	Barker lab, UA EEB
 #
 #	Idea: to take output from encompassing and duplicated gene pipelines and get frequency data for GO categories
