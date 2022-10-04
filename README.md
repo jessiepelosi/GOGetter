@@ -1,8 +1,8 @@
 # GOGetter
 
-Scripts for the GOGetter pipeline. If you use this pipeline, please cite the following paper: 
+Scripts for the GOgetter pipeline. If you use this pipeline, please cite the following paper: 
 
-Sessa, E.B., J.A. Pelosi, R. Masalia, N. Arrigo, and M.S. Barker. GOGetter... blah blah. 
+Sessa, E.B., J.A. Pelosi, R. Masalia, N. Arrigo, and M.S. Barker. GOgetter: A pipeline for obtaining curated GO annotations for plant genetic data. 
 
 ## Dependencies 
 1. perl 
