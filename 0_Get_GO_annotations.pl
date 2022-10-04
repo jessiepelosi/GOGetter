@@ -1,12 +1,8 @@
 #########################
 #
-#	Originally written by Rishi Masalia (UGA grad student as of 2014)
-#	Updated by Emily Sessa, summer 2012, spring 2014
-#       Last updated by Jessie Pelosi, July 14, 2021
-#
-# 	To run on HiPerGator at the University of Florida, you need to load the following modules: 
-#		module load ncbi_blast/2.2.26
-#		module load perl
+#	Originally written by Rishi Masalia and Nils Arrigo 
+#	Updated by Emily Sessa
+#       Last updated by Jessie Pelosi Sept 2022
 #
 #	On command line: perl 0_Get_GO_annotations.pl <namesfile> $CPU
 #
