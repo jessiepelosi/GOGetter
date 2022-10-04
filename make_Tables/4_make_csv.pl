@@ -1,6 +1,6 @@
 #############
 #
-#	Emily Sessa, Aug 2012
+#	Emily Sessa
 #	Barker lab, UA EEB
 #
 #	This program reads text data files in a directory, selects one column, and merges the data into one file.
