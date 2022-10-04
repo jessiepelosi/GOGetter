@@ -1,8 +1,8 @@
 #############
 #
-#	Emily Sessa, Aug 2012
+#	Emily Sessa
 #	Barker lab, UA EEB
-#	Last updated by Jessie Pelosi, Sept 2021
+#	Last updated by Jessie Pelosi, Sept 2022
 #	University of Florida
 #
 #	Idea: to take output from encompassing and duplicated gene pipelines and get frequency data for GO categories
