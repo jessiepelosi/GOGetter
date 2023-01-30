@@ -1,3 +1,0 @@
-Dryopteris_decipiens_DRDE.cds.fa
-Lygodium_japonicum_LYJA.cds.fa
-Vittaria_appalachiana_NDUV.cds.fa
