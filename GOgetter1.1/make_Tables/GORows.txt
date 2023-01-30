@@ -1,0 +1,98 @@
+
+GOSlim_Category
+abscission
+anatomical structure development
+biosynthetic process
+carbohydrate binding
+carbohydrate metabolic process
+catabolic process
+catalytic activity
+cell communication
+cell cycle
+cell death
+cell differentiation
+cell growth
+cell wall
+cell-cell signaling
+cellular component organization
+cellular homeostasis
+cellular protein modification process
+chloroplast
+chromatin binding
+circadian rhythm
+cytoplasm
+cytoskeleton
+cytosol
+DNA binding
+DNA metabolic process
+DNA-binding transcription factor activity
+embryo development
+endoplasmic reticulum
+endosome
+enzyme regulator activity
+extracellular region
+flower development
+generation of precursor metabolites and energy
+Golgi apparatus
+growth
+hydrolase activity
+kinase activity
+lipid binding
+lipid metabolic process
+mitochondrion
+motor activity
+multicellular organism development
+nuclear envelope
+nuclease activity
+nucleic acid binding
+nucleobase-containing compound metabolic process
+nucleolus
+nucleoplasm
+nucleotide binding
+nucleus
+other binding
+other biological processes
+other cellular components
+other cellular processes
+other intracellular components
+other membranes
+other metabolic processes
+other molecular functions
+oxygen binding
+peroxisome
+photosynthesis
+plasma membrane
+plastid
+pollination
+post-embryonic development
+protein binding
+protein metabolic process
+regulation of gene expression epigenetic
+regulation of molecular function
+reproduction
+response to abiotic stimulus
+response to biotic stimulus
+response to chemical
+response to endogenous stimulus
+response to external stimulus
+response to light stimulus
+response to stress
+ribosome
+RNA binding
+secondary metabolic process
+signal transduction
+signaling receptor activity
+signaling receptor binding
+structural molecule activity
+thylakoid
+transcription regulator activity
+transferase activity
+translation
+translation factor activity RNA binding
+transport
+transporter activity
+tropism
+unknown biological processes
+unknown cellular components
+unknown molecular functions
+vacuole
