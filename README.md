@@ -44,7 +44,7 @@ To loop through the example files, first `cd` into the directory and run a for-l
 cd GOGetter/
 for file in examples/*.cds; do bash GOgetter -i "$file";done
 ```
-This will generate four `*.tsv` files for each input file. The outputs for these files can be found in `examples/outfiles/`. 
+This will generate four count `*.tsv` files for each input file, the `*.blast` and `*.blast.besthit.tsv`. The outputs for these files can be found in `examples/outfiles/`. 
 
 To merge the files and generate some heatmaps: 
 ```
@@ -62,6 +62,8 @@ By default, `GOgetter2.0.sh` calls the following blastx command:
 ```
 blastx -num_threads $N_THREADS -evalue $E_VALUE -max_target_seqs $MAX_TARG_SEQ -db $BLASTDB -query $INPUTFILE -outfmt 6 -out $INPUTFILE.blast	
 ```
+Output from the BLAST search will be `$INPUTFILE.blast`. 
+
 The following options are available to change the BLAST parameters when calling the `GOgetter2.0.sh`: 
 ```
 -t    Number of threads to use during BLAST sequence homology search (default: 1)
