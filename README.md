@@ -1,6 +1,6 @@
 # GOGetter
 
-Scripts for the GOgetter pipeline. If you use this pipeline, please cite the following paper: 
+Scripts for the GOgetter pipeline, a set of python and bash scripts to summarize and visualize GOSlim terms in of one or more sets of genes. If you use this pipeline, please cite the following paper: 
 
 Sessa, E.B., R. Masalia, N. Arrigo, M.S. Barker, and J.A. Pelosi. GOgetter: A pipeline for summarizing and visualizing GOSlim annotations for plant genetic data. 
 
@@ -39,7 +39,7 @@ git clone [URL]
 
 <b>The Pipeline </b> 
 
-For each input file, GOgetter can be run with `GOgetter2.0.sh` which 1) uses BLAST to find significant sequence similarity matches, 2) parses the best BLAST hit for each locus (`parse_best_hits.py`), and 3) generates summary tables that characterize the GOSlim composition of the input (`make_tables.py`). An additional python script (`merge_tables.py`) can be run to merge and visualize the resulting summary tables. 
+For each input file, GOgetter can be run with `GOgetter2.0.sh` which 1) uses BLAST to find significant sequence similarity matches, 2) parses the best BLAST hit for each locus (`parse_best_hits.py`), and 3) generates summary tables that characterize the GOSlim composition of the input (`make_tables.py`). An additional python script (`merge_tables.py`) can be run to merge and visualize the resulting summary tables. The output from the main bash script are tables summarizing the raw and frequency counts of GOSlim terms in the input gene set. 
 
 <i>BLAST</i>
 
@@ -56,7 +56,7 @@ The following options are available to change the BLAST parameters when calling 
 -d    BLAST database (default: ./TAIR_2021/Araport11_pep_20210622_representative_gene_model)
 ```
 
-Independent BLAST or DIAMOND searches can also be fed into the next python script, but must be in the BLAST out format 6. 
+Independent BLAST or DIAMOND searches can also be passed to the next python script, but must be in the BLAST out format 6. 
 
 <i>Parsing Best Hits</i>
 
@@ -64,7 +64,7 @@ The python script `parse_best_hits.py` is used to filter and rank the best BLAST
 ```
 python parse_best_hits.py -i $INPUTFILE.blast -l $LENGTH -e $E_VALUE_FILT -f $FILTER
 ```
-By deafult, the script will filter out hits with alignment lengths less than 100bp and e-values greater than 0.00001 and the ranking of hits are based on e-value. From the main bash script, the following flags can be used to change these parameters: 
+The output from `parse_best_hits.py` is a tab-delimited file (`$INPUTFILE.blast.besthits.tsv`) with a one-to-one association of the query (input sequences) to the subject (reference in the BLAST database). By deafult, the script will filter out hits with alignment lengths less than 100bp and e-values greater than 0.00001 and the ranking of hits are based on e-value. From the main bash script, the following flags can be used to change these parameters: 
 
 ```
 -l    Minumum alignment length for filtering BLAST sequence homology search (default: 100)
@@ -85,7 +85,7 @@ With the options:
 ```
 <i>Making tables</i>
 
-The last script called by the main bash script is `make_tables.py` that generates a raw and frequency table of each GOSlim cateogry based on a GOSlim mapping file at the locus and gene level. 
+The last script called by the main bash script is `make_tables.py` that generates a raw and frequency table of each GOSlim cateogry based on a GOSlim mapping file at the locus and gene level (e.g., `$INPUTFILE.blast.besthit.freqcount-gene`). 
 
 Within `GOgetter2.0.sh` the script is called with the following command:  
 ```
@@ -114,7 +114,7 @@ Users may list each file individually, or, within a directory, can be run like s
 ```
 python merge_tables.py $(ls *freqcount-locus.tsv)
 ```
-The output from `merge_tables.py` is an aggregated table based on an outer join of the input tables and a heatmap of the frequency of each GOSlim category. 
+The output from `merge_tables.py` is an aggregated table based on an outer join of the input tables (`GOSlim_aggregated.tsv`) and a heatmap of the frequency of each GOSlim category (`GOSlim_heatmap.png`). 
 
 <b>Full Set of Commands Help </b> 
 
