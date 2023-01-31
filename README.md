@@ -34,8 +34,23 @@ Sessa, E.B., R. Masalia, N. Arrigo, M.S. Barker, and J.A. Pelosi. GOgetter: A pi
 
 GOgetter can be installed by cloning the GitHub repository.
 ```
-git clone [URL]
+git clone https://github.com/jessiepelosi/GOGetter.git
 ```
+
+<b>Examples</b>
+
+To loop through the example files, first `cd` into the directory and run a for-loop: 
+```
+cd GOGetter/
+for file in examples/*.cds; do bash GOgetter -i "$file";done
+```
+This will generate four `*.tsv` files for each input file. The outputs for these files can be found in `examples/outfiles/`. 
+
+To merge the files and generate some heatmaps: 
+```
+python merge_tables.py $(ls *.freqcounts-gene.tsv)
+```
+This script will generate three output files: `GOSlim_aggregated.tsv`, `GOSlim_heatmap.png`, and `GOSlim_heatmap_lognorm.png`. The outputs for these files can be found in `examples/outfiles/`. 
 
 <b>The Pipeline </b> 
 
@@ -114,7 +129,7 @@ Users may list each file individually, or, within a directory, can be run like s
 ```
 python merge_tables.py $(ls *freqcount-locus.tsv)
 ```
-The output from `merge_tables.py` is an aggregated table based on an outer join of the input tables (`GOSlim_aggregated.tsv`) and a heatmap of the frequency of each GOSlim category (`GOSlim_heatmap.png`). 
+The output from `merge_tables.py` is an aggregated table based on an outer join of the input tables (`GOSlim_aggregated.tsv`), a heatmap of the frequency of each GOSlim category (`GOSlim_heatmap.png`), and heatmap based on log normalization (`GOSlim_heatmap_lognorm.png`). <b>Note</b>: The heatmaps are most helpful for visualizing the frequency count tables, the aggregated table may be most useful for the raw counts data.  
 
 <b>Full Set of Commands Help </b> 
 
