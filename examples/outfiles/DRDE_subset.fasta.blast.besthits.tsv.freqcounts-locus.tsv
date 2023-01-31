@@ -1,0 +1,98 @@
+	GOSlimTerm
+DNA binding	0.00868518809187464
+DNA metabolic process	0.005807565531313765
+DNA-binding transcription factor activity	0.004865798147857479
+Golgi apparatus	0.006592371684194004
+RNA binding	0.013812588290692198
+abscission	0.00010464082038403181
+anatomical structure development	0.02438131114947941
+biosynthetic process	0.027886778632344476
+carbohydrate binding	0.0008894469732642704
+carbohydrate metabolic process	0.0065400512740019885
+catabolic process	0.009156071783602783
+catalytic activity	0.04196096897399676
+cell communication	0.0025113796892167633
+cell cycle	0.0046041960968973995
+cell death	0.0008894469732642704
+cell differentiation	0.0030869042013289385
+cell growth	0.002877622560560875
+cell wall	0.0011510490242243499
+cell-cell signaling	0.00020928164076806363
+cellular component organization	0.018312143567205567
+cellular homeostasis	0.0012033694344163659
+cellular protein modification process	0.0161146863391409
+chloroplast	0.01648092921048501
+chromatin binding	0.0009417673834562863
+circadian rhythm	0.0009940877936483023
+cytoplasm	0.014492753623188406
+cytoskeleton	0.0026683409197928113
+cytosol	0.013446345419348088
+embryo development	0.004185632815361272
+endoplasmic reticulum	0.0065400512740019885
+endosome	0.002825302150368859
+enzyme regulator activity	0.002092816407680636
+extracellular region	0.0006801653324962067
+flower development	0.0034531470726730496
+generation of precursor metabolites and energy	0.0026683409197928113
+growth	0.003243865431904986
+hydrolase activity	0.014911316904724532
+kinase activity	0.01532988018626066
+lipid binding	0.001621932715952493
+lipid metabolic process	0.006749332914770052
+lysosome	0.00010464082038403181
+mitochondrion	0.011091926960707372
+motor activity	0.0003139224611520954
+multicellular organism development	0.022707058023334902
+nuclear envelope	0.0007848061528802386
+nuclease activity	0.0015696123057604772
+nucleic acid binding	0.005075079788625543
+nucleobase-containing compound metabolic process	0.02966567257887302
+nucleolus	0.0015696123057604772
+nucleoplasm	0.0019881755872966046
+nucleotide binding	0.0048134777376654635
+nucleus	0.0240150682781353
+other binding	0.019463192591429916
+other biological processes	0.0026683409197928113
+other cellular components	0.006906294145346099
+other cellular processes	0.10160623659289489
+other intracellular components	0.019881755872966044
+other membranes	0.015120598545492596
+other metabolic processes	0.07889917856955998
+other molecular functions	0.0006801653324962067
+oxygen binding	5.232041019201591e-05
+peroxisome	0.0015172918955684612
+photosynthesis	0.0014649714853764454
+plasma membrane	0.01328938418877204
+plastid	0.01124888819128342
+pollination	0.001621932715952493
+post-embryonic development	0.01072568408936326
+protein binding	0.08041647046512845
+protein metabolic process	0.00868518809187464
+regulation of gene expression, epigenetic	0.0006278449223041908
+regulation of molecular function	0.0009940877936483023
+reproduction	0.013655627060116152
+response to abiotic stimulus	0.010411761628211166
+response to biotic stimulus	0.00894679014283472
+response to chemical	0.017684298644901376
+response to endogenous stimulus	0.00779574111861037
+response to external stimulus	0.010411761628211166
+response to light stimulus	0.009417673834562863
+response to stress	0.02464291320043949
+ribosome	0.001046408203840318
+secondary metabolic process	0.0019358551771045886
+signal transduction	0.00816198398995448
+signaling receptor activity	0.0014649714853764454
+signaling receptor binding	0.0007848061528802386
+structural molecule activity	0.0015172918955684612
+thylakoid	0.0031392246115209545
+transcription regulator activity	0.0006801653324962067
+transferase activity	0.03500235441845864
+translation	0.0024590592790247477
+translation factor activity, RNA binding	0.0006801653324962067
+transport	0.016428608800292996
+transporter activity	0.013760267880500183
+tropism	0.0012033694344163659
+unknown biological processes	0.00575524512112175
+unknown cellular components	0.000523204101920159
+unknown molecular functions	0.005075079788625543
+vacuole	0.002877622560560875
