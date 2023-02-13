@@ -129,7 +129,7 @@ python merge_tables.py file1.tsv file2.tsv ... filen.tsv
 ```
 Users may list each file individually, or, within a directory, can be run like so: 
 ```
-python merge_tables.py $(ls *freqcount-locus.tsv)
+python merge_tables.py $(ls *freqcounts-locus.tsv)
 ```
 The output from `merge_tables.py` is an aggregated table based on an outer join of the input tables (`GOSlim_aggregated.tsv`), a heatmap of the frequency of each GOSlim category (`GOSlim_heatmap.png`), and heatmap based on log normalization (`GOSlim_heatmap_lognorm.png`). <b>Note</b>: The heatmaps are most helpful for visualizing the frequency count tables, the aggregated table may be most useful for the raw counts data.  
 
