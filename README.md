@@ -39,9 +39,11 @@ git clone https://github.com/jessiepelosi/GOGetter.git
 
 <b>Examples</b>
 
-To loop through the example files, first `cd` into the directory and run a for-loop: 
+To loop through the example files, first `cd` into the directory and run a for-loop and unzip the default GO Slim database file.  
 ```
-cd GOGetter/
+cd GOGetter/TAIR_2021/
+unzip ATH_GO_GOSLIM_2021.txt.zip
+cd ..
 for file in examples/*.cds; do bash GOgetter -i "$file";done
 ```
 This will generate four count `*.tsv` files for each input file, the `*.blast` and `*.blast.besthit.tsv`. The outputs for these files can be found in `examples/outfiles/`. 
@@ -54,7 +56,7 @@ This script will generate three output files: `GOSlim_aggregated.tsv`, `GOSlim_h
 
 <b>The Pipeline </b> 
 
-For each input file, GOgetter can be run with `GOgetter2.0.sh` which 1) uses BLAST to find significant sequence similarity matches, 2) parses the best BLAST hit for each locus (`parse_best_hits.py`), and 3) generates summary tables that characterize the GOSlim composition of the input (`make_tables.py`). An additional python script (`merge_tables.py`) can be run to merge and visualize the resulting summary tables. The output from the main bash script are tables summarizing the raw and frequency counts of GOSlim terms in the input gene set. 
+For each input file, GOgetter can be run with `GOgetter2.0.sh` which 1) uses BLAST to find significant sequence similarity matches, 2) parses the best BLAST hit for each locus (`parse_best_hits.py`), and 3) generates summary tables that characterize the GOSlim composition of the input (`make_tables.py`). An additional python script (`merge_tables.py`) can be run to merge and visualize the resulting summary tables. The output from the main bash script are tables summarizing the raw and frequency counts of GOSlim terms in the input gene set. Make sure to unzip the `.zip` file of the deafult GO Slim database in the `TAIR_2021` directory. 
 
 <i>BLAST</i>
 
