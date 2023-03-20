@@ -44,7 +44,7 @@ To loop through the example files, first `cd` into the directory and run a for-l
 cd GOGetter/TAIR_2021/
 unzip ATH_GO_GOSLIM_2021.txt.zip
 cd ..
-for file in examples/*.cds; do bash GOgetter -i "$file";done
+for file in examples/*.cds; do bash GOgetter2.0.sh -i "$file";done
 ```
 This will generate four count `*.tsv` files for each input file, the `*.blast` and `*.blast.besthit.tsv`. The outputs for these files can be found in `examples/outfiles/`. 
 
