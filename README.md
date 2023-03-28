@@ -1,8 +1,8 @@
 # GOGetter
 
-Scripts for the GOgetter pipeline, a set of python and bash scripts to summarize and visualize GOSlim terms in of one or more sets of genes. If you use this pipeline, please cite the following paper: 
+Scripts for the GOgetter pipeline, a set of python and bash scripts to summarize and visualize GO Slim terms in of one or more sets of genes. If you use this pipeline, please cite the following paper: 
 
-Sessa, E.B., R. Masalia, N. Arrigo, M.S. Barker, and J.A. Pelosi. GOgetter: A pipeline for summarizing and visualizing GOSlim annotations for plant genetic data. 
+Sessa, E.B., R. Masalia, N. Arrigo, M.S. Barker, and J.A. Pelosi. GOgetter: A pipeline for summarizing and visualizing GO Slim annotations for plant genetic data. 
 
 ## Change Log 
 
@@ -42,7 +42,7 @@ git clone https://github.com/jessiepelosi/GOGetter.git
 To loop through the example files, first `cd` into the directory and run a for-loop and unzip the default GO Slim database file.  
 ```
 cd GOGetter/TAIR_2021/
-unzip ATH_GO_GOSLIM_2021.txt.zip
+gunzip ATH_GO_GOSLIM_2021.txt.gz
 cd ..
 for file in examples/*.fasta; do bash GOgetter2.0.sh -i "$file";done
 ```
