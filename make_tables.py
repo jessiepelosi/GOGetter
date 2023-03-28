@@ -26,7 +26,7 @@ GOSlim_DB = pd.read_table(SLIM_DB, header = None, sep='\t')
 GOSlim_DB.columns = ['locus', 'TAIRAccession', 'ObjectName', 'RelationshipType','GOTerm','GOID','TAIRKeywordID','Aspect','GOSlimTerm','EvidenceCode','EvidenceDescription','EvidenceWidth','Ref','Annotator','Date']
 
 # Generate a new df with the locus information 
-best_hits_S_locus = pd.DataFrame(best_hits_S['ObjectName'].str.replace('\.[0-9]',''))
+best_hits_S_locus = pd.DataFrame(best_hits_S['ObjectName'].str.replace('\.[0-9]','', regex = True))
 best_hits_S_locus.columns = ['locus']
 
 #Subset the GOSlim database to include only the ObjectName and corresponding GOSlimTerm
