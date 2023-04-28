@@ -65,6 +65,8 @@ This script will generate several output files: `examples_aggregatedTable.tsv`, 
 
 <b>The Pipeline </b> 
 
+![GOgetter Pipeline figure](https://github.com/jessiepelosi/GOGetter/blob/main/GOgetter_pipeline.png)
+
 For each input file, GOgetter can be run with `GOgetter.sh` which 1) uses BLAST (or DIAMOND; BLAST is default) to find significant sequence similarity matches, 2) parses the best BLAST hit for each locus (`parse_best_hits.py`), and 3) generates summary tables that characterize the GOSlim composition of the input (`make_tables.py`). An additional python script (`merge_and_viz.py`) can be run to merge and visualize the resulting summary tables. The output from the main bash script are tables summarizing the raw and frequency counts of GOSlim terms in the input gene set. Make sure to unzip the `.gz` file of the deafult GO Slim database in the `TAIR_2021` directory. 
 
 <i>BLAST</i>
