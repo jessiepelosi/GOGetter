@@ -102,9 +102,9 @@ The output from `parse_best_hits.py` is a tab-delimited file (`$INPUTFILE.blast.
 
 ```
 -l    Minumum alignment length for filtering BLAST sequence homology search (default: 0)
--p    Minimum percent identity for filtering BLAST sequence homology search (deafult: 0)
+-p    Minimum percent identity for filtering BLAST sequence homology search (default: 0)
 -b    Minimum bitscore for filtering BLAST sequence homology search (default:0)
--v    Maximum e-value for fitering BLAST sequence homology search (defualt: 0.00001)
+-v    Maximum e-value for fitering BLAST sequence homology search (default: 0.00001)
 -f    Parameters on which to rank/sort BLAST hits (default: evalue; options: evalue, bitscore, length, pident
 ```
 
@@ -118,7 +118,7 @@ With the options:
 -l, --length   : minimum length to consider for blast matches
 -p, --pident   : minimum percent identity to consider for blast matches
 -b, --bitscore : minimum bitscore to consider for blast matches 
--e, --evalue   : maximum e-value to consider for blast matches (deafult: 0.00001)
+-e, --evalue   : maximum e-value to consider for blast matches (default: 0.00001)
 -f, --filter   : choose best blast hit based on "evalue", "bitscore", "length", or "pident"
 ```
 <i>Making tables</i>
@@ -176,7 +176,7 @@ To see all options:
 python merge_and_giz.py [-m {both,merge}] [-g {all,bar,heatmap,bubble,pie,none}] [-o OUT] [file [file ...]]
 
 -m, --mode    : runmode, choices are both or merge
--g, --graph   : type of visualization, choices are all,bar,heatmap,bubble,pie,none
+-g, --graph   : type of visualization, choices are all, bar, heatmap, bubble, pie, none
 -o, --out     : prefix for output files 
 ```
 The list of input files is a positional argument that should follow the last of the keyword (flag) arguments 
@@ -218,14 +218,14 @@ Options:
 
 -t    Number of threads to use during BLAST sequence homology search (default: 1)
 -i    Input file in FASTA format; should be coding sequences of a set of genes
--e    Maximum e-value for BLAST search (deafult: 0.001)
+-e    Maximum e-value for BLAST search (default: 0.001)
 -s    Maximum number of target sequences for BLAST search (default: 50)
 -d    BLAST database (default: ./TAIR_2021/Araport11_pep_20210622_representative_gene_model)
 -n    Use DIAMOND inplace of BLAST
 -l    Minumum alignment length for filtering BLAST sequence homology search (default: 0)
--p    Minimum percent identity for filtering BLAST sequence homology search (deafult: 0)
+-p    Minimum percent identity for filtering BLAST sequence homology search (default: 0)
 -b    Minimum bitscore for filtering BLAST sequence homology search (default:0)
--v    Maximum e-value for fitering BLAST sequence homology search (defualt: 0.00001)
+-v    Maximum e-value for fitering BLAST sequence homology search (default: 0.00001)
 -f    Parameters on which to rank/sort BLAST hits (default: evalue; options: evalue, bitscore, length, pident) 
 -D    GOSlim database/mapping file (default: ./TAIR_2021/ATH_GO_GOSLIM_2021.txt)
 
