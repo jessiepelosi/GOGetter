@@ -2,7 +2,7 @@
 
 Scripts for the GOgetter pipeline, a set of python and bash scripts to summarize and visualize GO Slim terms in of one or more sets of genes. If you use this pipeline, please cite the following paper: 
 
-Sessa, E.B., R. Masalia, N. Arrigo, M.S. Barker, and J.A. Pelosi. GOgetter: A pipeline for summarizing and visualizing GO Slim annotations for plant genetic data. 
+Sessa,E.B.,R.R.Masalia,N.Arrigo, M. S. Barker, and J. A. Pelosi. 2023. GOgetter:A pipeline for summarizing and visualizing GO slim annotations for plant genetic data. Applications in Plant Sciences 11(4): e11536. https://doi.org/10.1002/aps3.11536 
 
 ## Change Log 
 
